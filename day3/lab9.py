@@ -9,5 +9,5 @@ for i in range(3):
     if un == username and pd == password:
         print("Logged in sucessfully")
         break
-if i== 2a:
+else:
     print("Attempts exceeded")
