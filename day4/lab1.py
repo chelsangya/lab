@@ -5,7 +5,7 @@ year= int(input("Enter the year "))
 mod400= year%400
 mod100=year%100
 mod4=year%4
-if mod4==0 and mod100 !=0 and mod400==0:
+if mod4==0 and mod100 !=0 or mod400==0:
     value="LEAP YEAR"
 else:
     value="COMMON YEAR"
