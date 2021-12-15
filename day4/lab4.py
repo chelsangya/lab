@@ -6,3 +6,4 @@ for i in a:
     if i=="-":
         continue
     print(i, end="")
+     
