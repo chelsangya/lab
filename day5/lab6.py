@@ -1,7 +1,11 @@
 #count the number of even and odd numbers from a series of numbers
-for i in range(0,101):
+even=0
+odd=0
+num=int(input("enter the number"))
+for i in range(0,num+1):
     if i%2==0:
-        print(f"{i} is an  even number")
+        even+=1
     else:
-        print(f"{i} is an odd number")
+        odd+=1
+print(f"There are {even} even numbers and {odd} odd numbers from 0 to {num}")
         
